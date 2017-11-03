@@ -1,4 +1,10 @@
-# IntelliJ Learning Session Instructions
+# IntelliJ Learning Session
+
+We'll be working with IntelliJ's default shortcuts.
+
+Case for using defaults: it makes collaboration easier (e.g.: for pair programming and knowledge sharing).
+
+## Getting started
 
 1. Clone this project.
 
@@ -26,3 +32,8 @@
 1. Open the file `Main.java` and press `Ctrl+Shift+F10`.
 
 1. The application should build and run. 
+
+
+# Useful resources
+
+- [IntelliJ shortcut cheatsheet](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
