@@ -14,7 +14,11 @@ Let's get started.
 
 ## Getting started
 
-1. Clone this project.
+1. Clone this project (open `Start -> git bash`):
+
+    ```bash
+    git clone https://github.com/mupdt982/gradle-hello-world.git
+    ```
 
 1. Navigate into the cloned directory and verify that the project builds and runs:
 
