@@ -15,9 +15,7 @@ jar {
 }
 
 repositories {
-    maven {
-        url "http://artifacts.pdtpartners.com/artifactory/maven-central"
-    }
+    mavenCentral()
 }
 
 dependencies {
