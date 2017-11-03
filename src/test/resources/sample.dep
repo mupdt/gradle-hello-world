@@ -1,0 +1,11 @@
+[Name]
+foo
+
+[Basedir]
+/bar/foo
+
+[Options]
+production = false
+
+[Projects]
+foo git https://git.foobar.com/myorg/foo.git master myuser
