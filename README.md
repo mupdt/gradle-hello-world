@@ -47,6 +47,10 @@ Let's get started.
 1. The application should build and run.
 
 
+Note: `Shift Shift` gives too many results. Try using specialized shortcuts like `Ctrl+Shift+A` to find actions,
+`Ctrl+Shift+N` to find files, `Ctrl+N` to find classes, `Ctrl+Alt+Shift+N` to find symbols in code.
+
+
 ## Write the first test...
 
 We're going to do some simple TDD now. We'll do the red, green, refactor cycle.
@@ -129,6 +133,18 @@ We will use:
 - Use `Ctrl+Shit+T` to go to  or generate tests.
 
 
+## Generate tests for `DepFile`
+
+Use `Ctrl+Shift+T` to automatically generate tests.
+
+We should also:
+ 
+- override the `toString` function on `DepFile` (with `Ctrl+O`),
+
+- generate other sorts of things with `Alt+Insert` (which is btw a generic "add a thing to context" shortcut useful
+    elsewhere in IntelliJ).
+
+
 ## Time to commit changes
 
 We will inspect the changes we made with the help of `Alt+9`. In the history tab, you can navigate between
@@ -152,6 +168,14 @@ Clipboard:
 
 - never forget "compare with clipboard".
 
+Resolving conflicts:
+
+- reproduce a merge conflict,
+
+- in IntelliJ do `Ctrl+Shift+A resolve conflicts`,
+
+- use `F7` to navigate between changes.
+
 
 ## Awesome editor magic
 
@@ -168,6 +192,10 @@ Clipboard:
 - Line manipulation:
 
     - Join lines: `Ctrl+Shift+J`
+
+- Surround with parentheses (get to the setting with `Ctrl+Shift+A surround selection brace`).
+
+- Raw copy (that doesn't apply formatting) with `Ctrl+Alt+Shift+V`.
 
 
 ## Remote debugging
