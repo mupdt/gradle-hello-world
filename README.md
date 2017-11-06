@@ -180,6 +180,8 @@ Resolving conflicts:
 
 ## Awesome editor magic
 
+- Reformat code: `Ctrl+Alt+O`
+
 - Duplication: `Ctrl+D`
 
 - Multi-cursor editing:
