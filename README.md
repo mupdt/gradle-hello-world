@@ -1,14 +1,15 @@
 # IntelliJ Learning Session
 
-We'll be working with IntelliJ's default shortcuts. Case for using defaults: it makes collaboration easier (e.g.: for
-pair programming and knowledge sharing).
+We'll be working with IntelliJ's default shortcuts.
+
+Case for using defaults: it makes collaboration easier (e.g.: pair programming and knowledge sharing).
 
 In this learning session we'll work on a simple TDD example. Through this example we'll find out useful shortcuts, tips,
 and tricks.
 
 We'll be writing a DEP file parser. A mock DEP file is in [`src/test/java/resources/sample.dep`](src/test/java/resources/sample.dep).
 
-We'll try to avoid using the mouse as little as possible. 
+We'll try to avoid using the mouse as much as possible (unfortunately sometimes we'll still need it). 
 
 Let's get started.
 
