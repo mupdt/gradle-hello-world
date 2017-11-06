@@ -69,6 +69,10 @@ We will use:
 
 - Find everything, action, file shortcuts (like`Shift+Shift`, or `Ctrl+Shift+A`, or `Ctrl+Shift+N`, etc.),
 
+- open file in the editor from the project tab (or other contexts) `F4`,
+
+- resize tabs with `Ctrl+Shift+Left|Right`
+
 - refactoring to create classes and methods that don't exist yet (lots of `Alt+Enter`),
 
 - splitting and moving editor tabs,
@@ -102,9 +106,8 @@ We will use:
 
 ## Write the second test...
 
-Write the test using the live template. Use the `assertEquals` static function.
-
-We will write the test for `getName` on the parsed Dep file.
+Write the test using the live template. Use the `assertEquals` static function. We will write 
+the test for the `getName` method on the parsed Dep file.
 
 We will use:
 
@@ -114,7 +117,8 @@ We will use:
 
 - `Ctrl+F6` to change the signature of the `fromString` function,
 
-- We will use the "Problems" tab to fix the problems introduced by the signature change,
+- We will use the "Problems" tab to fix the problems introduced by the signature change and navigate between the
+    problems with `Ctrl+Alt+Up|Down`,
 
 - `Alt+4` to open the running tests,
 
@@ -125,7 +129,48 @@ We will use:
 - Use `Ctrl+Shit+T` to go to  or generate tests.
 
 
+## Time to commit changes
 
+We will inspect the changes we made with the help of `Alt+9`. In the history tab, you can navigate between
+local changes and the log with `Alt+Left|Right`.
+
+With the help of `Alt+Backtick` we can explore Git history as well as local history (the latter is maintained by
+IntelliJ and is much more fine-grained).
+
+We will commit changes with IntelliJ's VCS support.
+
+- Press `Ctrl+K`.
+
+- If you have multiple modules in your projects each of them with its own VCS root, you can 
+    commit them together or separately. 
+
+Clipboard:
+
+- clipboard from history: `Ctrl+Shift+V`
+
+- Pro tip: set the clipboard history to much more than the default (`Ctrl+Shift+A max clipb`).
+
+- never forget "compare with clipboard".
+
+
+## Awesome editor magic
+
+- Duplication: `Ctrl+D`
+
+- Multi-cursor editing:
+
+    - multi-select words or selection: `Alt+J`,
+    
+    - multi-selection with the mouse: `Alt+Shift & mouse clicks...`,
+    
+    - toggle block selection: `Alt+Shift+Insert`
+
+- Line manipulation:
+
+    - Join lines: `Ctrl+Shift+J`
+
+
+## Remote debugging
 
 
 # Useful resources
