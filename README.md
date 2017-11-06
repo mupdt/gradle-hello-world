@@ -206,7 +206,8 @@ Resolving conflicts:
 1.  Run your process on a remote host:
     
     ```bash
-    /opt/java/jdk1.8.0_131/bin/java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005 -jar idea-tdd-example-1.0-SNAPSHOT.jar
+    gradle jar
+    /opt/java/jdk1.8.0_131/bin/java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005 -jar build/libs/gradle-hello-world-1.0-SNAPSHOT.jar
     ```
 
 1. Create a remote debug run configuration by pressing `Alt+Shift+F10 -> 0 (Edit Configurations...) -> Alt+Insert -> "Remote`.
