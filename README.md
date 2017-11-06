@@ -69,7 +69,7 @@ We will use:
 
 - Find everything, action, file shortcuts (like`Shift+Shift`, or `Ctrl+Shift+A`, or `Ctrl+Shift+N`, etc.),
 
-- open file in the editor from the project tab (or other contexts) `F4`,
+- open file in the editor from the project tab (or other contexts) `F4` and find the file in project tab with `Alt+F1`,
 
 - resize tabs with `Ctrl+Shift+Left|Right`
 
@@ -181,6 +181,21 @@ Clipboard:
 1. Create a remote debug run configuration by pressing `Alt+Shift+F10 -> 0 (Edit Configurations...) -> Alt+Insert -> "Remote`.
 
 1. Happy debugging!
+
+
+## Persisting your IntelliJ configuration
+
+Simple, put `~/.IntelliJIdea2017.2/config/` into git.
+
+You can also export/import settings.
+
+## Shared team settings
+
+Why? Because you probably want to standardize on the code style.
+
+Try this out: https://www.jetbrains.com/help/phpstorm/sharing-your-ide-settings.html
+
+Disclaimer: I haven't used this plugin. Instead I committed the settings into the project's git repo (which is not a good idea).
 
 
 # Useful resources
